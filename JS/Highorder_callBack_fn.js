@@ -25,6 +25,4 @@
 
 // // console.log(ans)
 // ans();// agar ismain sayhi() aayega toh yai hii print kargea 
-//       // agar ismain unndefind aayega toh yai not a function print karega 
-
-
+//       // agar ismain unndefind aayega toh yai not a function print karega
