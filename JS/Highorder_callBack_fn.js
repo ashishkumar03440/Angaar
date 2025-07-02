@@ -26,3 +26,21 @@
 // // console.log(ans)
 // ans();// agar ismain sayhi() aayega toh yai hii print kargea 
 //       // agar ismain unndefind aayega toh yai not a function print karega
+
+
+// function saySomething(say){
+//     say();
+// }
+
+// function morning(){
+//     console.log("Good Morning")
+// }
+
+// function evening(){
+//     console.log("good evening")
+// }
+
+// saySomething(morning);
+// saySomething(evening);
+
+// in this saySomting() will be a highorder function 
