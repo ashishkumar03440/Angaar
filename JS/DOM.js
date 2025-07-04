@@ -57,6 +57,60 @@
 
 
 // how to access attributes of dic , class , etc
-let div = document.querySelector("div");
-console.log(div.getAttribute('class'));
-div.setAttribute('class','dark')
+// let div = document.querySelector("div");
+// console.log(div.getAttribute('class'));
+// div.setAttribute('class','dark')
+
+// making changes in our page directily by js 
+// let div = document.querySelector("div");
+// div.style.backgroundColor = "red";
+// div.style.border = "4px solid green"
+// div.style.borderRadius = "25px"
+// div.style.boxShadow = "5px 5px"
+// div.style.textShadow = "2px 2px "
+
+
+// class list 
+
+// let div = document.querySelector("div");
+// console.log(div.classList)
+
+// div.classList.add('dark')
+// console.log(div.classList.contains('dark'));
+
+// div.classList.remove('dark')
+// div.classList.toggle('dark');// by this line we are adding the dark class 
+// div.classList.toggle('dark'); // in this line we are removing the dark class 
+
+
+
+// // selectio
+// let div = document.querySelector("div");
+// let h = document.querySelector("h1")
+// console.log(div.parentElement)// to see the parint class 
+// console.log(div.children)// it will return an html collenction which is like array  
+// console.log(div.children[1])//to assess 1st element we will do
+// console.log(h.nextElementSibling)
+
+
+
+// cerating new components by using js 
+
+// let div = document.querySelector("div");
+// let newh1 = document.createElement('h1');
+// console.log(newh1); 
+// newh1.textContent = "naya maal";
+// newh1.setAttribute('class' , 'inner')
+// console.log(newh1);
+
+// div.appendChild(newh1); // yai humare div ke andar new element add karinge by an attribute 
+// yai bas attrivbutes accept kakrega 
+
+// console.log(div);
+
+// div.append("we can add new ")// by this we can pass attriburs as well as text
+
+
+// now we will delete the element 
+let h = document.querySelector("h1")
+h.remove();
